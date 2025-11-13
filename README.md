@@ -1,4 +1,5 @@
 # Item_Based_Recommendation_System
+![image](https://github.com/AylinOguz/Item_Based_Recommendation_System/blob/main/item_based.png?raw=true)
 
 ## Project Overview
 
