@@ -15,7 +15,7 @@ Note: This project uses Pearson correlation (pandas corrwith) to calculate simil
 
 ## How It Works
 
-1- Data Preparation:
+### 1- Data Preparation:
 
 - Load movie.csv and rating.csv from MovieLens dataset.
 
@@ -23,19 +23,19 @@ Note: This project uses Pearson correlation (pandas corrwith) to calculate simil
 
 - Optionally, remove users who rated fewer than 50 movies.
 
-2- User–Movie Matrix:
+### 2- User–Movie Matrix:
 
 - Create a pivot table with users as rows and movies as columns.
 
 - Each cell contains the rating the user gave to that movie.
 
-3- Finding Similar Movies:
+### 3- Finding Similar Movies:
 
 - For a target movie, calculate the Pearson correlation between that movie and all other movies.
 
 - Sort correlations and recommend the top N similar movies.
 
-4- Reusable Function:
+### 4- Reusable Function:
 
 - item_based_recommender(movie_name, user_movie_df) returns the top 10 similar movies.
 
