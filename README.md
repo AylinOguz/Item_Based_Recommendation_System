@@ -1,4 +1,4 @@
-# Item_base_Recommendation_System
+# Item_Based_Recommendation_System
 
 
  ## Project Overview
